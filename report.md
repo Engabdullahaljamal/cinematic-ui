@@ -26,7 +26,7 @@ parallax motion, and scroll-driven transitions to preserve immersion and depth.
 
 ## Video Walkthrough
 👉 Google Drive link:
-MY_VIDEO_LINK_HERE
+https://drive.google.com/file/d/1-T_y4VCVNNU2qN3RJKZ3ANjsnmjqByLX/view?usp=share_link
 
 ## AI Tool Usage
 I used ChatGPT for:
