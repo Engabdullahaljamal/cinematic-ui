@@ -4,18 +4,19 @@ import { SECTION_ORDER } from "../constants/sectionOrder";
 export default function Details() {
     return (
         <section id="details" className="details">
-        
+
 
             <div className="container">
                 <h3 className="h3">DETAILS</h3>
-    <div className="stats__bg">
-                <video className="stats__video" autoPlay muted loop playsInline preload="auto">
-                    <source src="/cinematic-loop-2.mp4" type="video/mp4" />
-                </video>
-                <div className="stats__tint" />
-                <div className="stats__grain" />
-                <div className="stats__vignette" />
-            </div>
+                <div className="stats__bg">
+                    <video className="stats__video" autoPlay muted loop playsInline preload="auto">
+                        <source src={`${import.meta.env.BASE_URL}cinematic-loop-2.mp4`} type="video/mp4" />
+
+                    </video>
+                    <div className="stats__tint" />
+                    <div className="stats__grain" />
+                    <div className="stats__vignette" />
+                </div>
                 <div className="grid">
                     <div className="panel">
                         <div className="panel__k">SCROLL-DRIVEN</div>

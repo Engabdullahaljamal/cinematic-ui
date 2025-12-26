@@ -61,7 +61,8 @@ export default function StatsStage() {
         <section id="stats" ref={ref} className="stats">
             <div className="stats__bg">
                 <video className="stats__video" autoPlay muted loop playsInline preload="auto">
-                    <source src="/cinematic-loop-2.mp4" type="video/mp4" />
+                    <source src={`${import.meta.env.BASE_URL}cinematic-loop-2.mp4`} type="video/mp4" />
+
                 </video>
                 <div className="stats__tint" />
                 <div className="stats__grain" />

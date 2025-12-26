@@ -90,7 +90,8 @@ export default function ImmersiveStage() {
 
             <div className="stage__bg">
                 <video className="stage__video" autoPlay muted loop playsInline preload="auto">
-                    <source src="/cinematic-loop-3.mp4" type="video/mp4" />
+                    <source src={`${import.meta.env.BASE_URL}cinematic-loop-3.mp4`} type="video/mp4" />
+
                 </video>
 
                 <div className="stage__tint" />
