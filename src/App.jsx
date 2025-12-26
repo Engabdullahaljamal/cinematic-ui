@@ -7,17 +7,16 @@ import Final from "./sections/Final.jsx";
 import ScrollProgress from "./components/ScrollProgress.jsx";
 import Loader from "./components/Loader.jsx";
 import StatsStage from "./sections/StatsStage.jsx";
-import Spacer from "./sections/Spacer.jsx";
 
 
 
 
 export default function App() {
   useLenis();
-
+  const BASE = import.meta.env.BASE_URL;
   return (
     <>
-      <Loader videoSrc="/cinematic-loop.mp4" minMs={800} maxMs={3500} />
+      <Loader videoSrc={`${BASE}cinematic-loop-2.mp4`} minMs={800} maxMs={3500} />
       <ScrollProgress />
 
       <main>
