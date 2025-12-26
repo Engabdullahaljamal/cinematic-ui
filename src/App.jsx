@@ -23,7 +23,6 @@ export default function App() {
       <main>
         <Hero />
         <ImmersiveStage />
-        <Spacer />
         <StatsStage />
         <Details />
         <Final />
